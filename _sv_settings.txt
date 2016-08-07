@@ -1,0 +1,5 @@
+title: chomkorosier
+theme: html
+domain: chomkorosier.smvi.co
+sort: date newest
+description: Chomko & Rosier is an experience design studio working between technology, architecture and art. They create interactive experiences, installations, products and infrastructures for the public realm.
