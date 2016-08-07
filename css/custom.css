@@ -83,8 +83,9 @@ p  { font-size: 1.0em; }
     color: black;
 }
 .slick-dots {
-	bottom: -35px;
+	bottom: -30px;
 	font-size: 0.9em;
+	text-align: right;
 }
 
 /*
