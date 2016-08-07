@@ -1,0 +1,151 @@
+	/*	Bamboo
+	=========================== */
+	.overflow { overflow: auto; -webkit-overflow-scrolling: touch; }
+	//.loading { background-image: url(resources/loader.gif); background-position: center; background-repeat: no-repeat; background-size: 32px; }
+	//.loading.subview { min-height: 300px; }
+	#container {
+		margin: 0;
+		position: relative;
+		z-index: 2;
+		background-color: #2A2A2A;
+	}
+	//#cover { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(255,255,255,0); z-index: 600; }
+
+	/*	Header
+	=========================== */
+	header.primary {
+		height: 49px;
+		position: relative;
+	}
+	header.primary .icon {
+		z-index: 22;
+		position: absolute;
+		top: 10px;
+		left: 0;
+		//height: 49px;
+		//width: 49px;
+		//font-size: 1em;
+		//line-height: 49px;
+		text-align: center;
+		padding-left: 1em;
+	}
+	header.primary .icon:hover {
+		cursor: pointer;
+		opacity: 0.5;
+	}
+	header.primary .side {
+		left: auto;
+		right: 0;
+	}
+	header.primary hgroup {
+		text-align: center
+	}
+	header.primary hgroup h1 {
+		z-index: 20;
+		position: absolute;
+		top: 10px;
+		left: 50px;
+		right: 50px;
+		margin: 0;
+		//line-height: 49px;
+		margin: 0;
+		font-size: 1em;
+	}
+	header.secondary { display: none; }
+
+	/*	Navigation
+	=========================== */
+	.navigation {
+		z-index: 1;
+		width: 100%;
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		padding: 2em;
+	}
+	.navigation ul {
+		list-style: none;
+		padding: 0;
+		padding-top: 0.25em;
+		margin: 0;
+		width: 265px;
+		position: relative;
+	}
+	.navigation li {
+		font-size: 1em;
+		position: relative;
+	}
+		.navigation ul li a ,
+		.navigation ul li a:hover ,
+		.navigation ul li a:visited ,
+		.navigation ul li a:focus {
+			text-decoration: none;
+			background-color: transparent;
+			display: block;
+			line-height: 40px
+		}
+	#projects {}
+	#research {
+		padding-bottom: 2em;
+	}
+
+	/*	Presentation styles
+	=========================== */
+
+@media only screen and (min-width: 768px) {
+
+	/*	Bamboo
+	=========================== */
+	#container {
+		left: 265px;
+		width: auto;
+		overflow: auto; -webkit-overflow-scrolling: touch;
+	}
+	#scroller {	}
+
+	/*	Header
+	=========================== */
+	header.primary {
+		height: auto;
+		background: transparent;
+		border: none
+	}
+	header.primary .icon {
+		display: none
+	}
+	header.primary hgroup {
+		text-align: left;
+		padding: 20px 20px 5px 20px;
+		display: none;
+	}
+	header.primary hgroup h1 {
+		position: relative;
+		left: 0;
+		right: auto;
+		//font-size: 2em;
+		//line-height: 1.25;
+	}
+	header.secondary {
+		display: block; // display logo on desktop
+		padding-bottom: 2em;
+		margin-bottom: 2em;
+	}
+	header.secondary a {
+		text-decoration: none;
+	}
+
+	/*	Navigation
+	=========================== */
+	.navigation {
+		max-width: 265px;
+	}
+
+	.middle {
+		top: 35%;
+		position: absolute;
+	}
+
+	.bottom {
+		bottom: 0;
+		position: absolute;
+	}
+}
