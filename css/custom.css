@@ -20,7 +20,7 @@ h4 { font-size: 1.5em; }
 p  { font-size: 1.0em; }
 
 #content {
-	padding: 2em;
+	padding: 1em;
 }
 .content-text {
 	max-width: 800px;
@@ -57,7 +57,7 @@ p  { font-size: 1.0em; }
 
 .hero{
 	width: 100%;
-	height: 75vh;
+	height: 220px;
 	background-color: #1B1B1B;
 }
 .a-slide{
@@ -113,6 +113,8 @@ p  { font-size: 1.0em; }
 
 	h1 { font-size: 2.5em; line-height: 1.35; font-weight: 300; }
 
+	.hero { height: 280px; }
+
 }
 
 @media screen and (min-width: 768px){
@@ -135,6 +137,10 @@ p  { font-size: 1.0em; }
 		z-index: 999;
 		background-color: #2A2A2A;
 	}
+
+	#content { padding: 2em; }
+
+	.hero { height: 75vh; }
 
 	.content-hero {
 		height: 70vh;
