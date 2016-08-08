@@ -134,7 +134,7 @@
 	/*	Navigation
 	=========================== */
 	.navigation {
-		max-width: 250px;
+		width: 250px;
 	}
 
 	.middle {
@@ -145,5 +145,26 @@
 	.bottom {
 		bottom: 2em;
 		position: absolute;
+	}
+}
+
+	/*	Presentation styles
+	=========================== */
+
+@media only screen and (min-width: 1920px) {
+
+	/*	Bamboo
+	=========================== */
+	#container {
+		left: 20%;
+	}
+
+	/*	Navigation
+	=========================== */
+	.navigation {
+		width: 20%;
+	}
+	body,html {
+		overflow-x: hidden !important;
 	}
 }
