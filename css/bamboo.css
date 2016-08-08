@@ -96,7 +96,7 @@
 	/*	Bamboo
 	=========================== */
 	#container {
-		left: 265px;
+		left: 250px;
 		width: auto;
 		overflow: auto; -webkit-overflow-scrolling: touch;
 	}
@@ -121,8 +121,6 @@
 		position: relative;
 		left: 0;
 		right: auto;
-		//font-size: 2em;
-		//line-height: 1.25;
 	}
 	header.secondary {
 		display: block; // display logo on desktop
@@ -136,7 +134,7 @@
 	/*	Navigation
 	=========================== */
 	.navigation {
-		max-width: 265px;
+		max-width: 250px;
 	}
 
 	.middle {
@@ -145,7 +143,7 @@
 	}
 
 	.bottom {
-		bottom: 0;
+		bottom: 2em;
 		position: absolute;
 	}
 }
