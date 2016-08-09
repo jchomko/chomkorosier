@@ -127,7 +127,7 @@ p  { font-size: 1.0em; }
 
 	h1 { font-size: 2.5em; line-height: 1.35; font-weight: 300; }
 	.hero { height: 280px; }
-	.secondary { font-size: 1.25em; }
+	.secondary { font-size: 1.2em; }
 
 }
 
@@ -186,3 +186,6 @@ p  { font-size: 1.0em; }
 	.hero { height: 75vh; }
 }
 
+@media screen and (min-width: 1800px){
+	.secondary { font-size: 1.3em; }
+}
