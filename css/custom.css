@@ -1,0 +1,198 @@
+body, html { overflow-y: auto; overflow-x: hidden;}
+body {
+	font-size: 1.1em;
+	line-height: 1.5;
+	font-weight: 300;
+	font-family: "Atlas Grotesk", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	background-color: #2A2A2A;
+	color: #FAFAFA;
+}
+a { color: rgba(245, 245, 245, 0.5); text-decoration: none; }
+a:visited { color: rgba(245, 245, 245, 0.5); }
+a:hover {
+	color: rgba(245, 245, 245, 1.0);
+	-ms-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+a:focus { color: rgba(245, 245, 245, 1.0); }
+
+h1 { font-size: 2.0em; line-height: 1.35; font-weight: 300; }
+h2 { font-size: 2.0em; font-weight: 300;}
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.5em; }
+p  { font-size: 1.0em; }
+
+#content {
+	padding: 1em;
+}
+.content-text {
+	max-width: 800px;
+	font-weight: 1.25em;
+}
+.content-text h1 { }
+.content-text h2 { }
+.content-text p {
+	font-weight: 300;
+	font-size: 1.25em;
+	line-height: 1.35;
+	margin-bottom: 0.625em;
+}
+.content-text {
+	max-width: 800px;
+	font-weight: 1.25em;
+}
+.content-about {
+	max-width: 1130px;
+}
+.content-about p {
+	max-width: 610px;
+	font-size: 1.25em;
+	line-height: 1.35;
+	margin-bottom: 0.625em;
+}
+.address {
+	margin: 2em 0px;
+}
+.close {
+	font-size: 2em;
+}
+.primary a {
+	color: rgba(245, 245, 245, 1.0);
+}
+.primary a:hover {
+	color: rgba(245, 245, 245, 0.5);
+}
+.secondary a {
+	color: rgba(245, 245, 245, 1.0);
+}
+.secondary a:hover {
+	color: rgba(245, 245, 245, 0.5);
+}
+/*
+  Slideshow
+*/
+
+.hero{
+	width: 100%;
+	height: 220px;
+	background-color: #1B1B1B;
+}
+.a-slide{
+	height: 100%;
+	width: 100%;
+	background-size: cover !important;
+	background-position: center center !important;
+	background-repeat: no-repeat !important;
+}
+.slick-slider{
+	height: 100%;
+}
+.slick-list,
+.slick-track {
+	height: 100%;
+}
+.slick-prev {
+	left: 0;
+}
+.slick-next {
+	right: 0;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slick-dots {
+	bottom: -30px;
+	font-size: 0.9em;
+	text-align: right;
+}
+.slick-track:hover {
+	cursor: pointer;
+}
+
+/*
+  Responsive images
+*/
+
+/*img {
+	height: auto;
+	max-width: 100%;
+	width: 100%;
+}*/
+
+
+/*
+  Mobile First!
+
+  Include desktop styles here
+*/
+@media screen and (min-width: 400px){
+
+	h1 { font-size: 2.5em; line-height: 1.35; font-weight: 300; }
+	.hero { height: 280px; }
+	.secondary { font-size: 1.2em; }
+
+}
+
+@media screen and (min-width: 500px){
+
+	#content { padding: 2em; }
+	.hero { height: 360px; }
+
+}
+
+@media screen and (min-width: 768px){
+
+	h1 { font-size: 3.0em; line-height: 1.35; font-weight: 300; }
+
+	#frame-top {
+		top: 0;
+		position: fixed;
+		width: 100%;
+		height: 2em;
+		z-index: 999;
+		background-color: #2A2A2A;
+	}
+	#frame-bottom {
+		bottom: 0;
+		position: fixed;
+		width: 100%;
+		height: 2em;
+		z-index: 999;
+		background-color: #2A2A2A;
+	}
+
+	.hero { height: 70vh; }
+
+	.content-hero {
+		height: 70vh;
+		width: 100%;
+		max-width:1000px;
+		height: 600px;
+		background: #1A1A1A;
+		margin:auto;
+	}
+
+	header.secondary {
+		display: block; // display logo on desktop
+		//padding-bottom: 2em;
+		margin-bottom: 2em;
+	}
+
+	.close {
+		line-height: 1;
+	}
+
+}
+
+@media screen and (min-width: 1024px){
+	.hero { height: 75vh; }
+}
+
+@media screen and (min-width: 1800px){
+	.secondary { font-size: 1.3em; }
+}
