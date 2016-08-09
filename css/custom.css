@@ -10,7 +10,14 @@ body {
 }
 a { color: rgba(245, 245, 245, 0.5); text-decoration: none; }
 a:visited { color: rgba(245, 245, 245, 0.5); }
-a:hover { color: rgba(245, 245, 245, 1.0); }
+a:hover {
+	color: rgba(245, 245, 245, 1.0);
+	-ms-transition: all .2s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
 a:focus { color: rgba(245, 245, 245, 1.0); }
 
 h1 { font-size: 2.0em; line-height: 1.35; font-weight: 300; }
