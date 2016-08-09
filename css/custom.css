@@ -47,10 +47,6 @@ p  { font-size: 1.0em; }
 	line-height: 1.35;
 	margin-bottom: 0.625em;
 }
-.content-about h1 {
-	font-size: 1.8em;
-	margin-top: 0;
-}
 .address {
 	margin: 2em 0px;
 }
@@ -172,10 +168,6 @@ p  { font-size: 1.0em; }
 		height: 600px;
 		background: #1A1A1A;
 		margin:auto;
-	}
-
-	.content-about h1 {
-		font-size: 2em;
 	}
 
 	header.secondary {
