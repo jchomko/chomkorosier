@@ -51,7 +51,7 @@
 		margin: 0;
 		font-size: 1em;
 	}
-	header.secondary { display: none; }
+	header.logo { display: none; }
 
 	/*	Navigation
 	=========================== */
@@ -74,18 +74,14 @@
 		font-size: 1em;
 		position: relative;
 	}
-		.navigation ul li a ,
-		.navigation ul li a:hover ,
-		.navigation ul li a:visited ,
-		.navigation ul li a:focus {
-			text-decoration: none;
-			background-color: transparent;
-			display: block;
-			line-height: 40px
-		}
-	#projects {}
-	#research {
-		padding-bottom: 2em;
+	.navigation ul li a ,
+	.navigation ul li a:hover ,
+	.navigation ul li a:visited ,
+	.navigation ul li a:focus {
+		text-decoration: none;
+		background-color: transparent;
+		display: block;
+		line-height: 40px
 	}
 
 	/*	Presentation styles
@@ -102,8 +98,26 @@
 	}
 	#scroller {	}
 
-	/*	Header
+
+	/*	Navigation
 	=========================== */
+	.navigation {
+		width: 250px;
+	}
+	#projects {
+		display: table;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+	.nav-projects {
+		display: table-cell;
+		vertical-align: middle;
+		height: 100%;
+	}
+	.nav-studio {
+		display: table-footer-group;
+	}
 	header.primary {
 		height: auto;
 		background: transparent;
@@ -113,39 +127,22 @@
 		display: none
 	}
 	header.primary hgroup {
-		text-align: left;
+		text-align: right;
 		padding: 20px 20px 5px 20px;
 		display: none;
 	}
 	header.primary hgroup h1 {
 		position: relative;
-		left: 0;
+		right: 0;
 		right: auto;
 	}
-	header.secondary {
-		display: block; // display logo on desktop
-		padding-bottom: 2em;
-		margin-bottom: 2em;
+	header.logo {
+		display: table-header-group;
 	}
-	header.secondary a {
+	header.logo a {
 		text-decoration: none;
 	}
 
-	/*	Navigation
-	=========================== */
-	.navigation {
-		width: 250px;
-	}
-
-	.middle {
-		top: 35%;
-		position: absolute;
-	}
-
-	.bottom {
-		bottom: 2em;
-		position: absolute;
-	}
 }
 
 	/*	Presentation styles
@@ -156,7 +153,8 @@
 	/*	Bamboo
 	=========================== */
 	#container {
-		left: 20%;
+		//left: 20%;
+		right: 20%;
 	}
 
 	/*	Navigation
