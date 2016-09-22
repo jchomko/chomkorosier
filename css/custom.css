@@ -2,6 +2,18 @@
 
 body, html { overflow-y: auto; overflow-x: hidden;}
 
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
 /*  Global Styles  */
 
 body {
@@ -45,16 +57,28 @@ p  { font-size: 1.00em; }
 }
 .content-text {
 	max-width: 600px;
-	margin-top: 40px;
+	padding: 1em 0;
 	overflow: auto;
 }
+.content-text h1 {
+	padding: 1em 0;
+}
 .content-text p {
-	font-size: 1.2em;
+	font-size: 1.25em;
 	line-height: 1.5;
-	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+}
+.content-text .project-description {
+	padding: 2em 0;
 }
 .content-about {
-	max-width: 1130px;
+	//max-width: 900px;
+}
+.content-about h1 {
+	max-width: 900px;
+	font-size: 2.25em;
+	line-height: 1.25;
+	margin-bottom: 1em;
 }
 .content-about p {
 	max-width: 610px;
@@ -73,23 +97,24 @@ p  { font-size: 1.00em; }
 	display: inline-block;
 }
 .project-meta-col h4 {
-	text-transform: uppercase;
-	font-size: 0.75em;
-	letter-spacing: 0.01em;
-	margin-bottom: 0.2em;
+	font-size: 1.25em;
+	padding-bottom: 1.5em;
+}
+.project-meta-col h5 {
+	font-size: 0.8em;
 }
 .project-meta-col p {
-	padding-top: 0.2em;
-	margin-top: 0em;
+	font-size: 0.8em;
+	color: rgba(245, 245, 245, 0.5);
+	padding-bottom: 0.8em;
 }
-
-/*
-.project-meta h2 {
-	font-size: ;
-	color: blue;()
+.project-meta-col p a {
+	color: rgba(245, 245, 245, 0.5);
+	text-decoration: none;
 }
-.address {
-	margin: 2em 0px;
+.project-meta-col p a:hover {
+	color: rgba(245, 245, 245, 1.0);
+	text-decoration: none;
 }
 
 /*  Navigation  */
