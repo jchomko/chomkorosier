@@ -1,12 +1,39 @@
-body {
-	font-family: "Atlas Grotesk Web", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: 300;
-	background-color: #1a1a1a;
-	color: #FAFAFA;
-  padding: 35px 0;
-}
+/*  Reset  */
 
-a { color: rgba(245, 245, 245, 0.5); text-decoration: none; }
+body, html { overflow-y: auto; overflow-x: hidden;}
+
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+/*  Global Styles  */
+
+body {
+	font-size: 1.0em;
+	line-height: 1.5;
+	font-family: 'Atlas Grotesk Web', serif, 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	background-color: #2A2A2A;
+	color: #FAFAFA;
+	-moz-font-feature-settings: "liga", "kern";
+	-moz-font-feature-settings:"liga=1, kern=1";
+	-ms-font-feature-settings:"liga", "kern";
+	-o-font-feature-settings:"liga", "kern";
+	-webkit-font-feature-settings:"liga", "kern";
+	font-feature-settings: "liga", "kern";
+}
+a {	color: rgba(245, 245, 245, 0.5); text-decoration: none; }
+
 a:visited { color: rgba(245, 245, 245, 0.5); }
 a:hover {
 	color: rgba(245, 245, 245, 1.0);
@@ -153,23 +180,29 @@ Projects only...
 
 
 .content-text {
-	max-width: 800px;
-	font-weight: 1.25em;
+	max-width: 600px;
+	padding: 1em 0;
+	overflow: auto;
 }
-.content-text h1 { }
-.content-text h2 { }
+.content-text h1 {
+	padding: 1em 0;
+}
 .content-text p {
-	font-weight: 300;
 	font-size: 1.25em;
-	line-height: 1.35;
-	margin-bottom: 0.625em;
+	line-height: 1.5;
+	padding-bottom: 0.5em;
 }
-.content-text {
-	max-width: 800px;
-	font-weight: 1.25em;
+.content-text .project-description {
+	padding: 2em 0;
 }
 .content-about {
-	max-width: 1130px;
+	//max-width: 900px;
+}
+.content-about h1 {
+	max-width: 900px;
+	font-size: 2.25em;
+	line-height: 1.25;
+	margin-bottom: 1em;
 }
 .content-about p {
 	max-width: 610px;
@@ -177,9 +210,39 @@ Projects only...
 	line-height: 1.35;
 	margin-bottom: 0.625em;
 }
-.address {
-	margin: 2em 0px;
+.project-meta {
+	width: 100%;
+	margin-bottom: 12em;
 }
+.project-meta-col {
+	width: 40%;
+	padding-right: 10%;
+	float: left;
+	display: inline-block;
+}
+.project-meta-col h4 {
+	font-size: 1.25em;
+	padding-bottom: 1.5em;
+}
+.project-meta-col h5 {
+	font-size: 0.8em;
+}
+.project-meta-col p {
+	font-size: 0.8em;
+	color: rgba(245, 245, 245, 0.5);
+	padding-bottom: 0.8em;
+}
+.project-meta-col p a {
+	color: rgba(245, 245, 245, 0.5);
+	text-decoration: none;
+}
+.project-meta-col p a:hover {
+	color: rgba(245, 245, 245, 1.0);
+	text-decoration: none;
+}
+
+/*  Navigation  */
+
 .close {
 	font-size: 2em;
 }
@@ -189,28 +252,27 @@ Projects only...
 .primary a:hover {
 	color: rgba(245, 245, 245, 0.5);
 }
-.secondary a {
+.logo a {
 	color: rgba(245, 245, 245, 1.0);
 }
-.secondary a:hover {
+.logo a:hover {
 	color: rgba(245, 245, 245, 0.5);
 }
-/*
-  Slideshow
-*/
 
-.hero{
+/*  Slideshow  */
+
+.hero {
 	width: 100%;
 	height: 220px;
 }
-.a-slide{
+.a-slide {
 	height: 100%;
 	width: 100%;
 	background-size: cover !important;
 	background-position: center center !important;
 	background-repeat: no-repeat !important;
 }
-.slick-slider{
+.slick-slider {
 	height: 100%;
 }
 .slick-list,
@@ -251,22 +313,38 @@ Projects only...
 	cursor: pointer;
 }
 
-/*
-  Responsive images
-*/
+/*  Video  */
 
-/*img {
-	height: auto;
-	max-width: 100%;
+.content-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+}
+.content-video iframe,
+.content-video object,
+.content-video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-}*/
+	height: 100%;
+}
+
+/*  Responsive Images  */
 
 
-/*
-  Mobile First!
+	/*img {
+		height: auto;
+		max-width: 100%;
+		width: 100%;
+	}*/
 
-  Include desktop styles here
-*/
+
+/*  Desktop Responsiveness  */
+
 @media screen and (min-width: 400px){
 	h1 { font-size: 2.5em; line-height: 1.35; font-weight: 300; }
 	.hero { height: 280px; }
@@ -281,7 +359,10 @@ Projects only...
 
 @media screen and (min-width: 768px){
 
-	h1 { font-size: 3.0em; line-height: 1.35; font-weight: 300; }
+	h1 {
+		font-size: 2.25em;
+		line-height: 1.5;
+	}
 
 	#frame-top {
 		top: 0;
@@ -322,7 +403,7 @@ Projects only...
 }
 
 @media screen and (min-width: 1800px){
-	.secondary { font-size: 1.3em; }
+	.logo { font-size: 1.3em; }
 }
 
 
@@ -390,15 +471,6 @@ Projects only...
 @media (max-width: 400px) {
 
 }
-
-
-
-
-
-
-
-
-
 
 @font-face {
   font-family: 'Atlas Grotesk Web';
