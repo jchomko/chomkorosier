@@ -7,7 +7,6 @@
 		margin: 0;
 		position: relative;
 		z-index: 2;
-		background-color: #2A2A2A;
 	}
 	//#cover { display: none; position: absolute; top: 0; right: 0; bottom: 0; left: 0; background: rgba(255,255,255,0); z-index: 600; }
 
@@ -92,15 +91,6 @@
 	=========================== */
 
 @media only screen and (min-width: 768px) {
-
-	/*	Bamboo
-	=========================== */
-	#container {
-		left: 250px;
-		width: auto;
-		overflow: auto; -webkit-overflow-scrolling: touch;
-	}
-	#scroller {	}
 
 	/*	Header
 	=========================== */
