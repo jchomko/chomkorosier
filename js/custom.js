@@ -3,6 +3,14 @@
 !function($) {
 
   $(document).ready(function(){
+
+
+    $( "body" ).delegate( "#mobile-menu-trigger a", "click", function() {
+      $("#navigation-parts").toggle();
+      return false
+    });
+    
+
     $('.slick-slider').slick({
       accessibility: true,
       arrows: false,

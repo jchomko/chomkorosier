@@ -50,7 +50,7 @@
 		margin: 0;
 		font-size: 1em;
 	}
-	header.logo { display: none; }
+	header.secondary { display: none; }
 
 	/*	Navigation
 	=========================== */
@@ -70,19 +70,21 @@
 		position: relative;
 	}
 	.navigation li {
+		font-size: 1em;
 		position: relative;
-		font-size: 0.8em;
-		line-height: 2.5;
-		letter-spacing: 0.02em;
-		text-transform: uppercase;
 	}
-	.navigation ul li a ,
-	.navigation ul li a:hover ,
-	.navigation ul li a:visited ,
-	.navigation ul li a:focus {
-		text-decoration: none;
-		background-color: transparent;
-		display: block;
+		.navigation ul li a ,
+		.navigation ul li a:hover ,
+		.navigation ul li a:visited ,
+		.navigation ul li a:focus {
+			text-decoration: none;
+			background-color: transparent;
+			display: block;
+			line-height: 40px
+		}
+	#projects {}
+	#research {
+		padding-bottom: 2em;
 	}
 
 	/*	Presentation styles
@@ -90,26 +92,8 @@
 
 @media only screen and (min-width: 768px) {
 
-
-	/*	Navigation
+	/*	Header
 	=========================== */
-	.navigation {
-		width: 250px;
-	}
-	#projects {
-		display: table;
-		position: relative;
-		width: 100%;
-		height: 100%;
-	}
-	.nav-projects {
-		display: table-cell;
-		vertical-align: middle;
-		height: 100%;
-	}
-	.nav-studio {
-		display: table-footer-group;
-	}
 	header.primary {
 		height: auto;
 		background: transparent;
@@ -119,22 +103,39 @@
 		display: none
 	}
 	header.primary hgroup {
-		text-align: right;
+		text-align: left;
 		padding: 20px 20px 5px 20px;
 		display: none;
 	}
 	header.primary hgroup h1 {
 		position: relative;
-		right: 0;
+		left: 0;
 		right: auto;
 	}
-	header.logo {
-		display: table-header-group;
+	header.secondary {
+		display: block; // display logo on desktop
+		padding-bottom: 2em;
+		margin-bottom: 2em;
 	}
-	header.logo a {
+	header.secondary a {
 		text-decoration: none;
 	}
 
+	/*	Navigation
+	=========================== */
+	.navigation {
+		width: 250px;
+	}
+
+	.middle {
+		top: 35%;
+		position: absolute;
+	}
+
+	.bottom {
+		bottom: 2em;
+		position: absolute;
+	}
 }
 
 	/*	Presentation styles
@@ -145,8 +146,7 @@
 	/*	Bamboo
 	=========================== */
 	#container {
-		//left: 20%;
-		right: 20%;
+		left: 20%;
 	}
 
 	/*	Navigation
