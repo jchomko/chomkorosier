@@ -140,7 +140,6 @@ Projects only...
 #projects {
     margin-top: 140px;
 }
-
 #projects li {
     font-size: 1.4em;
     font-weight: 400;
@@ -150,11 +149,9 @@ Projects only...
     margin: 0;
     padding: 0;
 }
-
 #projects li a.active {
     color: #fff;
 }
-
 #project-wrapper img {
     border: 2px solid #ccc;
     display: block;
@@ -162,27 +159,26 @@ Projects only...
     padding: 10px;
     max-width: 100%;
 }
-
-#projects {
-
-}
-
 #project-details {
     font-size: 0.75em;
     margin-top: 60px;
 }
-
 #project-details h3 {
     font-weight: 600;
     letter-spacing: 0.02em;
     line-height: 1.1em;
     margin-bottom: 0;
 }
-
 #project-details a {
     color: #fff;
     text-decoration: underline;
 }
+
+/* ============
+
+Content replated code...
+
+=============== */
 
 .content-text {
 	max-width: 800px;
@@ -228,9 +224,11 @@ Projects only...
 	color: rgba(245, 245, 245, 0.5);
 }
 
-/*
-  Slideshow
-*/
+/* ============
+
+Slideshow Styles...
+
+=============== */
 
 .hero{
 	width: 100%;
@@ -284,22 +282,13 @@ Projects only...
 	cursor: pointer;
 }
 
-/*
-  Responsive images
-*/
 
-/*img {
-	height: auto;
-	max-width: 100%;
-	width: 100%;
-}*/
+/* ============
 
+Responsive and mobile
 
-/*
-  Mobile First!
+=============== */
 
-  Include desktop styles here
-*/
 @media screen and (min-width: 400px){
 	h1 { font-size: 2.5em; line-height: 1.35; font-weight: 300; }
 	.hero { height: 280px; }
@@ -463,11 +452,11 @@ Projects only...
 
 
 
+/* ============
 
+@Font Faces...
 
-
-
-
+=============== */
 
 
 @font-face {

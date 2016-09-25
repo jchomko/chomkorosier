@@ -11,6 +11,7 @@
     <?php include 'includes/sidebar.php' ?>
     <div class="columns ten offset-by-one-and-a-bit">
       <div id="content">
+        <?php // include a sidebar on all pages, you'll need to go in to this sidebar file and make a little change ?>
         <?php include ('includes/slideshow.php') ?>
         <div class="content-main columns offset-by-one ten">
           <h1>A streetlight that records and plays back shadows</h1>

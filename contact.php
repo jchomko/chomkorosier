@@ -3,7 +3,11 @@
 
 <?php 
   // ok here we are setting the current page, this will do various things around the website.
-  $current_page = "contact"; ?>
+  $current_page = "contact"; 
+
+  // would you like a slideshow on this page? if so please open up.... includes / slideshow.php
+  $include_slideshow = false;
+  ?>
 
 <div class="container">
   <div class="row">

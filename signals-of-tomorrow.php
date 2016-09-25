@@ -11,6 +11,7 @@
     <?php include 'includes/sidebar.php' ?>
     <div class="columns ten offset-by-one-and-a-bit">
       <div id="content">
+        <?php // include a sidebar on all pages, you'll need to go in to this sidebar file and make a little change ?>
         <?php include ('includes/slideshow.php') ?>
         <div class="content-main columns offset-by-one ten">
           <h1>A workshop exploring a bottom-up Smart nation in Singapore</h1>
@@ -51,7 +52,7 @@
               <div class="columns five">
                 <div id="project-right">
                   <h3>Credits</h3>
-                  <p>Workshop Leads: Chomko & Rosier, Assemble, PAN Studio, Daniel Hirshmann, Andreas Schlegel, Debbie Ding<br/>
+                  <p>Workshop Leads: Chomko &amp; Rosier, Assemble, PAN Studio, Daniel Hirshmann, Andreas Schlegel, Debbie Ding<br/>
                   Workshop Programme Leads: Changist (Scott Smith, Future Everything)<br/>
                   Group Participants: XXXX, XXXX, XXXX, XXXX</p>
                 </div>

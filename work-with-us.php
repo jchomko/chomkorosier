@@ -3,16 +3,20 @@
 
 <?php 
   // ok here we are setting the current page, this will do various things around the website.
-  $current_page = "work-with-us"; ?>
+  $current_page = "work-with-us"; 
+  // would you like a slideshow on this page? if so please open up.... includes / slideshow.php
+  $include_slideshow = false;
+  ?>
 
 <div class="container">
   <div class="row">
+    <?php // include a sidebar on all pages, you'll need to go in to this sidebar file and make a little change ?>
     <?php include 'includes/sidebar.php' ?>
 
     <div class="columns ten offset-by-one-and-a-bit">
       <div id="container">
-        <div id="content"> <!-- Project Content -->
-
+        <div id="content"> 
+          <?php // include a sidebar on all pages, you'll need to go in to this sidebar file and make a little change ?>
           <?php include ('includes/slideshow.php') ?>
 
           <div class="content-main columns offset-by-one ten" id="project-wrapper">
@@ -32,7 +36,7 @@
 
           </div>
         </div>
-      </div> <!-- Project Content ends -->
+      </div>
       <?php include 'includes/footer.php' ?>
     </div>
   </div>

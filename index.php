@@ -8,6 +8,7 @@
   ?>
 <div class="container">
   <div class="row">
+    <?php // include a sidebar on all pages, you'll need to go in to this sidebar file and make a little change ?>
     <?php include 'includes/sidebar.php' ?>
     <div class="columns ten offset-by-one-and-a-bit">
       <div id="content">

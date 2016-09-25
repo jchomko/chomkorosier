@@ -21,9 +21,6 @@
     <?php // ...the line above, this message... the paste below this message ?>
 
 
-
-
-
     <?php if ($current_page == "about" && $include_slideshow == true) { ?>
       <div class="hero">
         <div class="slick-slider">
