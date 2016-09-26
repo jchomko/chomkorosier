@@ -123,9 +123,6 @@ Navigation Styles...
     margin-top: -21px;
 }
 
-.slick-dots {
-	position: relative;
-}
 header#logo #mobile-menu-trigger a {
     color: #878380;
 
@@ -529,7 +526,6 @@ Responsive and mobile
 			margin-top:0.75vh;
 			font-size: 12px;
 			line-height: 12px;
-
 	}
 
 	#content-navigation{
@@ -538,16 +534,16 @@ Responsive and mobile
 
 	}
 
+	.slick-dots {
+		position: relative;
+	}
 
 }
 
 /* Up to phablet (also point when grid becomes active) */
 @media (min-width: 401px) and (max-width: 749px) {
 
-
-
 }
-
 
 /* Mobile only */
 @media (max-width: 400px) {
