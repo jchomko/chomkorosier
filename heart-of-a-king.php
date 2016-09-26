@@ -6,7 +6,7 @@
   $current_page = "heart-of-a-king";
 
   // would you like a slideshow on this page? if so please open up.... includes / slideshow.php
-  $include_slideshow = false;
+  $include_slideshow = true;
   ?>
 
 <div class="container">
@@ -26,8 +26,6 @@
           <h2>Attribute: value</h2> -->
 
           <p>Heart of a King places visitors in the footsteps and emotional state of Charles I on the day of his execution in 1649. Visitors received a wooden, heart-shaped totem. The heart creates a haptic heartbeat that acts as a compass, increasing in strength when pointed to Charles' path. Following this compass, visitors trace Charles' final journey through St James Park and Whitehall, arriving in front of Banqueting House, the place of his execution where the heart ceases to beat.</p>
-
-          <p>Chomko &amp; Rosier have now been selected to develop The Lost Palace; an automated visitor experience recreating the Palace of Whitehall on the streets of central London in Summer 2016.</p>
         </div>
       </div>
       <?php include 'includes/footer.php' ?>

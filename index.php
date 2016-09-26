@@ -15,8 +15,8 @@
         <?php include ('includes/slideshow.php') ?>
         <div class="content-main columns offset-by-one ten">
           <h1>Immersive technology recreates a palace that no longer exists</h1>
-          <p>The Lost Palace is a spatialised sonic recreation of the Palace of Whitehall. This project has given us a chance to really explore the possibilities of how you can create the sense of a place that once existed. As a studio that strives to produce evocative work for the public realm, it’s been exciting to offer an entirely new experience of Whitehall.</p>
-          <p>We’ve used handheld devices and architectural installations in combination with interaction and digital design to create an experience that lets the past bleed through into the present day streets. The richness of The Lost Palace ultimately derives from the diversity in the project team; with designers, theatre makers, developers, fabricators, historians and the team at Historic Royal Palaces working in collaboration.</p>
+          <p>The Lost Palace sought to give visitors the opportunity to uncover the Palace of Whitehall, which burnt down in the 17th Century. Chomko & Rosier collaborated with theatre makers Uninvited Guests to create an immersive experience that allowed visitors to explore the spaces and stories of a palace that no longer exists.</p>
+          <p>The project explored the potential of technology, design, theatre and sound to recreate the sensory experience of being inside the palace, resulting in a subtle form of augmented reality that utilised the environment around you. Every visitor was given a handheld device that allowed them to interact with sounds, stories and physical installations around the streets of contemporary Whitehall. The Lost Palace sought to blend past and present contexts, attempting to conjure up a palace within the mind of the visitor as they wandered the streets of Whitehall.</p>
         </div>
       </div>
       <?php include 'includes/footer.php' ?>

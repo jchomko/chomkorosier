@@ -1,9 +1,9 @@
 <?php // this is a very basic include which pulls in the same file everytime this is printed. ?>
 <?php include 'includes/header.php' ?>
 
-<?php 
+<?php
   // ok here we are setting the current page, this will do various things around the website.
-  $current_page = "space-clocks"; 
+  $current_page = "space-clocks";
 
   // would you like a slideshow on this page? if so please open up.... includes / slideshow.php
   $include_slideshow = false;
@@ -20,11 +20,11 @@
 
           <div class="content-main columns offset-by-one ten" id="project-wrapper">
 
-            <h1>A series of public clocks displaying the time on spacecraft orbiting Earth</h1>
-            
-            <p>The Relative Clocks show the effects of time dilation. Each clock shows the time on Earth, as well as on a spacecraft. Spacecraft orbiting the earth experience time at a different rate than us on Earth, due to the effects of gravity and velocity on the flow of time. This effect is known as time dilation, and is explained by Albert Einsteins’ Theory of Relativity.</p>
+            <iframe src="https://player.vimeo.com/video/182829088?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="700" height="438" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-            <a href="projects/space-clocks/space-clocks-3-large.png" class="fancybox"><img src="projects/space-clocks/space-clocks-3-small.png"/></a>
+            <h1>A series of public clocks displaying the time on spacecraft orbiting Earth</h1>
+
+            <p>The Relative Clocks show the effects of time dilation. Each clock shows the time on Earth, as well as on a spacecraft. Spacecraft orbiting the earth experience time at a different rate than us on Earth, due to the effects of gravity and velocity on the flow of time. This effect is known as time dilation, and is explained by Albert Einsteins’ Theory of Relativity.</p>
 
             <p>The front hand of the clock displays the time on a spacecraft, while the rear hand displays the time on Earth. The delay between the tick of the front and rear hands indicates the actual time difference between Earth time and the time on the spacecraft. This difference is constantly growing, as each second on the spacecraft is slightly longer or shorter than a second on earth.</p>
 
@@ -76,4 +76,3 @@
     </div>
   </div>
 </div>
-  
