@@ -1,7 +1,7 @@
 <nav id="main-nav" class="columns two">
   <header id="logo">
     <a href="/">Chomko<br>&amp; Rosier</a>
-    <span id="mobile-menu-trigger"><a href="#">MENU</a></span>
+    <span id="mobile-menu-trigger"><a href="#">Menu</a></span>
   </header>
 
   <div id="navigation-parts">

@@ -114,15 +114,21 @@ Navigation Styles...
   color: #fff;
 }
 #mobile-menu-trigger {
-    color: #878380;
+		font-family: "Atlas Grotesk Web", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
     display: none;
     float: right;
-    font-size: 0.6em;
-    font-weight: 400;
-    margin-top: -50px;
+    font-size: 0.9em;
+    font-weight: 100;
+    margin-top: -21px;
+}
+
+.slick-dots {
+	position: relative;
 }
 header#logo #mobile-menu-trigger a {
     color: #878380;
+
 }
 header#logo #mobile-menu-trigger a:hover {
     color: #FFF;
@@ -141,16 +147,16 @@ Content Styles...
 
 .content-main {
     position: relative;
-    padding-top: 23px;
+    padding-top: 28px;
 		padding-left: 80px;
-		padding-right: 400px;
+		padding-right: 300px;
 }
 
 .content-main h1:first-child {
     font-size: 2.6em;
     font-weight: 900;
     line-height: 1.1em;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -367,14 +373,34 @@ Responsive and mobile
 		line-height: 1;
 	}
 
+	.content-main {
+    position: relative;
+    padding-top: 28px;
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
 }
 
 @media screen and (min-width: 1024px){
 	.hero { height: 85vh; }
+
+	.content-main {
+    position: relative;
+    padding-top: 28px;
+    padding-left: 80px;
+    padding-right: 400px;
+}
 }
 
 @media screen and (min-width: 1800px){
 	.secondary { font-size: 1.3em; }
+	.content-main {
+    position: relative;
+    padding-top: 28px;
+    padding-left: 80px;
+    padding-right: 400px;
+}
 }
 
 
@@ -395,15 +421,20 @@ Responsive and mobile
 /* Larger than desktop */
 @media (min-width: 1200px) and (max-width: 1300px)  {
 	body .columns.offset-by-one-and-a-bit {
-		margin-left: 5.6%;
+		margin-left: 8.6%;
 	}
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) and (max-width: 1199px)  {
 	body .columns.offset-by-one-and-a-bit {
-		margin-left: 5.333%;
+		margin-left: 10.333%;
 	}
+
+	.ten.columns {
+    width: 88.3%;
+	}
+
 }
 
 /* Larger than tablet */
@@ -426,20 +457,22 @@ Responsive and mobile
     display: block;
   }
 	#navigation-parts {
-    background: #1a1a1a none repeat scroll 0 0;
+    background: rgba(26,26,26,0.9) none repeat scroll 0 0;
     height: 100%;
     padding-right: 10%;
+		padding-left:10%;
     display: none;
     position: absolute;
     text-align: right;
     z-index: 9999;
+		width:50%;
 	}
 	#navigation-parts {
 		right:-10px;
 	}
 	#project-wrapper {
     margin-left: 0;
-    width: 100%;
+    width: 90%;
 }
 	body .columns.offset-by-one-and-a-bit {
     float: none;
@@ -451,18 +484,60 @@ Responsive and mobile
     display: block;
     float: none;
     height: 100%;
-    margin-bottom: 55px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
     position: inherit;
-    width: 82.6667%;
+    width: 98.6667%;
     z-index: 999;
   }
 
   .hero {
-    margin-bottom: -48px;
+    margin-bottom: -0px;
     z-index: -1;
+		height: 190px;
   }
+
+	.content-main {
+	    position: relative;
+	    padding-top: 34px;
+			padding-left: 0px;
+			padding-right: 0px;
+	}
+
+	body {
+		padding: 13px 0;
+		font-size: 1.1em;
+		}
+
+	h1 {
+    font-size: 2em;
+    margin: 0em 0;
+	}
+
+	.content-main h1:first-child {
+	    font-size: 2.0em;
+	    font-weight: 900;
+	    line-height: 1.1em;
+	    margin-bottom: 6px;
+			margin-top: 6px;
+			margin-left: 0px;
+	    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	}
+
+	#projects{
+			margin-top:0.75vh;
+			font-size: 12px;
+			line-height: 12px;
+
+	}
+
+	#content-navigation{
+		font-size: 12px;
+		line-height: 12px;
+
+	}
+
 
 }
 
@@ -477,7 +552,7 @@ Responsive and mobile
 /* Mobile only */
 @media (max-width: 400px) {
   header#logo {
-    font-size: 2.2em;
+    font-size: 2.0em;
   }
 }
 
