@@ -34,11 +34,20 @@ a:focus { color: rgba(245, 245, 245, 1.0); }
 
 h1 {
 
-		font-family: "Atlas Grotesk Web Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		/*font-family: "Atlas Grotesk Web Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 		font-size: 2.3em;
     font-weight: 400;
     letter-spacing: 0.02em;
-    line-height: 1.35;
+    line-height: 1.35;*/
+		font-family: "Atlas Grotesk Web Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-weight: 600;
+	  color: #fff;
+	  font-size: 2.0em;
+	  font-weight: 1200;
+	  letter-spacing: 0.00em;
+	  line-height: 1.55em;
+	  /*margin-bottom: 10px;
+	  margin-top: 0px;*/
 }
 
 h2 { font-size: 2.0em; font-weight: 300;}

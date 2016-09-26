@@ -9,7 +9,7 @@
       $("#navigation-parts").toggle();
       return false
     });
-    
+
 
     $('.slick-slider').slick({
       accessibility: true,
