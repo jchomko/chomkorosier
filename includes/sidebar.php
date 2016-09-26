@@ -14,7 +14,7 @@
 
     <section id="projects" class="bottom">
       <ul>
-        <li><a <?php if ($current_page == 'index') { ?> class="active" <?php }; ?> href="/">The Lost Palace</a></li>
+        <li><a <?php if ($current_page == 'index') { ?> class="active" <?php }; ?> href="/">Lost Palace</a></li>
         <li><a <?php if ($current_page == 'space-clocks') { ?> class="active" <?php }; ?> href="space-clocks.php">Space Clocks</a></li>
         <li><a <?php if ($current_page == 'heart-of-a-king') { ?> class="active" <?php }; ?> href="heart-of-a-king.php">Heart of a King</a></li>
         <li><a <?php if ($current_page == 'shadowing') { ?> class="active" <?php }; ?> href="shadowing.php">Shadowing</a></li>

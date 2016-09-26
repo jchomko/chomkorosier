@@ -69,7 +69,7 @@
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }
   .nine.columns                   { width: 74.0%;          }
-  .ten.columns                    { width: 82.6666666667%; }
+  .ten.columns                    { width: 93.666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
   .twelve.columns                 { width: 100%; margin-left: 0; }
 
@@ -81,7 +81,7 @@
   /* Offsets */
   .offset-by-one.column,
   .offset-by-one.columns          { margin-left: 8.66666666667%; }
-  .offset-by-one-and-a-bit        { margin-left: 9.66666666667%; }
+  .offset-by-one-and-a-bit        { margin-left: 5.666667%; }
   .offset-by-two.column,
   .offset-by-two.columns          { margin-left: 17.3333333333%; }
   .offset-by-three.column,
@@ -546,7 +546,7 @@ there.
 
 .fancybox-close {
   color: #000;
-  background: rgba(255,255,255,0.9);   
+  background: rgba(255,255,255,0.9);
   position: absolute;
   top: -10px;
   right: -10px;

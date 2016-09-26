@@ -4,12 +4,20 @@ Global Styles...
 
 =============== */
 
+
+
 body {
 	font-family: "Atlas Grotesk Web", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
-	background-color: #1a1a1a;
+	font-size: 1.3em;
+	background-color: #191919;
 	color: #FAFAFA;
-  padding: 35px 0;
+  padding: 30px 0;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+
 }
 
 a { color: rgba(245, 245, 245, 0.5); text-decoration: none; }
@@ -25,8 +33,10 @@ a:hover {
 a:focus { color: rgba(245, 245, 245, 1.0); }
 
 h1 {
-    font-size: 2.3em;
-    font-weight: 600;
+
+		font-family: "Atlas Grotesk Web Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 2.3em;
+    font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.35;
 }
@@ -43,13 +53,15 @@ Header Styles...
 =============== */
 
 header#logo {
+	font-family: "Atlas Grotesk Web Bold", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 600;
   color: #fff;
-  font-size: 2.6em;
-  font-weight: 900;
-  letter-spacing: 0.01em;
-  line-height: 1.35em;
+  font-size: 2.3em;
+  font-weight: 1200;
+  letter-spacing: 0.00em;
+  line-height: 1.55em;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 header#logo a {
   color: #fff;
@@ -70,12 +82,19 @@ Navigation Styles...
   width: 100%;
   overflow: hidden;
 }
+
 #content-navigation > li {
   display: inline-block;
-  font-size: 1.7em;
+  /*font-size: 1.7em;
   letter-spacing: 0.06em;
   line-height: 1.15em;
-  margin-bottom: 0;
+  margin-bottom: 0;*/
+	font-size: 1.6em;
+	font-weight: 400;
+	line-height: 1.25em;
+	letter-spacing: 0.03em;
+	margin: 0;
+	padding: 0;
   width: 100%;
 }
 #content-navigation > li a {
@@ -114,6 +133,8 @@ Content Styles...
 .content-main {
     position: relative;
     padding-top: 23px;
+		padding-left: 80px;
+		padding-right: 400px;
 }
 
 .content-main h1:first-child {
@@ -141,7 +162,7 @@ Projects only...
     margin-top: 140px;
 }
 #projects li {
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 400;
     line-height: 1.25em;
     letter-spacing: 0.03em;
@@ -261,7 +282,7 @@ Slideshow Styles...
 
 .slick-dots {
     color: #fff;
-    font-size: 0.9em;
+    font-size: 0.8em;
     right: 20px;
     text-align: right;
     top: 10px;
@@ -269,8 +290,8 @@ Slideshow Styles...
 
 .slick-dots a {
     color: #fff;
-    font-size: 1.9em;
-    font-weight: 600;
+    font-size: 1.6em;
+    font-weight: 300;
     opacity: 0.7;
 }
 
@@ -296,8 +317,8 @@ Responsive and mobile
 }
 
 @media screen and (min-width: 500px){
-  .hero { 
-  	height: 360px; 
+  .hero {
+  	height: 360px;
   }
 }
 
@@ -340,7 +361,7 @@ Responsive and mobile
 }
 
 @media screen and (min-width: 1024px){
-	.hero { height: 75vh; }
+	.hero { height: 85vh; }
 }
 
 @media screen and (min-width: 1800px){
@@ -351,42 +372,42 @@ Responsive and mobile
 /* Larger than Desktop HD */
 @media (min-width: 1800px) {
   body .columns.offset-by-one-and-a-bit {
-    margin-left: 8.5%;
-  }
+    margin-left: 5%;
+	}
 }
 
 /* Larger than desktop */
 @media (min-width: 1301px) and (max-width: 1400px)  {
   body .columns.offset-by-one-and-a-bit {
-    margin-left: 9.6%;
+    margin-left: 8.6%;
   }
 }
 
 /* Larger than desktop */
 @media (min-width: 1200px) and (max-width: 1300px)  {
 	body .columns.offset-by-one-and-a-bit {
-		margin-left: 10.6%;
+		margin-left: 5.6%;
 	}
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) and (max-width: 1199px)  {
 	body .columns.offset-by-one-and-a-bit {
-		margin-left: 12.333%;
+		margin-left: 5.333%;
 	}
 }
 
 /* Larger than tablet */
 @media (min-width: 820px) and (max-width: 999px) {
 	body .columns.offset-by-one-and-a-bit {
-		margin-left: 13.55%;
+		margin-left: 5.55%;
 	}
 }
 
 /* Larger than tablet */
 @media (min-width: 750px) and (max-width: 819px) {
 	body .columns.offset-by-one-and-a-bit {
-		margin-left: 16.55%;
+		margin-left: 5.55%;
 	}
 }
 
@@ -414,6 +435,7 @@ Responsive and mobile
 	body .columns.offset-by-one-and-a-bit {
     float: none;
     margin: 0 auto;
+
   }
 
   #main-nav {
@@ -437,9 +459,9 @@ Responsive and mobile
 
 /* Up to phablet (also point when grid becomes active) */
 @media (min-width: 401px) and (max-width: 749px) {
-	
 
-  
+
+
 }
 
 
@@ -469,4 +491,15 @@ Responsive and mobile
   font-weight:  400;
   font-style:   normal;
   font-stretch: normal;
+}
+
+@font-face {
+font-family: 'Atlas Grotesk Web Bold';
+src: url('/fonts/AtlasGrotesk-Bold-Web.eot');
+src: url('/fonts/AtlasGrotesk-Bold-Web.eot?#iefix') format('embedded-opentype'),
+url('/fonts/AtlasGrotesk-Bold-Web.woff2') format('woff2'),
+url('/fonts/AtlasGrotesk-Bold-Web.woff') format('woff');
+font-weight: 700;
+font-style: normal;
+font-stretch: normal;
 }
