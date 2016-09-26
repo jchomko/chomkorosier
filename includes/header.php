@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Chomko &amp; Rosier</title>
     <!--<title content="{{ site.theme }}"></title>-->
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="Chomko and Rosier is an experience design studio working between technology, architecture and art. Chomko and Rosier create interactive experiences, installations, products and infrastructures for the public realm. Physical digital, innovative heritage interaction design, playful interactive installation, interactive public artwork.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.png">
 
