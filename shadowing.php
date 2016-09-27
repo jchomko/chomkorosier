@@ -53,10 +53,10 @@
               </div>
               <div class="columns five">
                 <div id="project-right">
-                  <h3>Credits</h3>
-                  <p>Design: Chomko & Rosier<br/>
-                    Creative Technology: Chomko & Rosier, David Haylock (Watershed)<br/>
-                    Producer: Verity McIntosh (Watershed)</p>
+                  <h3>Awards</h3>
+                  <p>Playable City Award 2014<br/>
+                  Design of the Year Nominee 2014/15<br/>
+                  Active Public Space Award 2016</p>
                 </div>
               </div>
             </div>
@@ -65,10 +65,11 @@
                   <div id="project-left-top">
                     <div class="row">
                       <div class="columns seven">
-                        <h3>Awards</h3>
-                        <p>Playable City Award 2014<br/>
-                        Design of the Year Nominee 2014/15<br/>
-                        Active Public Space Award 2016</p>
+                        <h3>Credits</h3>
+                        <p>Design: Chomko & Rosier<br/>
+                          Creative Technology: Chomko & Rosier, David Haylock (Watershed)<br/>
+                          Producer: Verity McIntosh (Watershed)</p>
+                        
                       </div>
                       <div class="columns five">
                         <h3>Videos</h3>

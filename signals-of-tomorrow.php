@@ -37,9 +37,11 @@
                 <div id="project-left-bottom">
                   <div class="row">
                     <div class="columns seven">
-
-                      <h3>Install Locations</h3>
-                      <p>Singapore</p>
+                      <h3>Credits</h3>
+                      <p>Workshop Leads: Chomko &amp; Rosier, Assemble, PAN Studio, Daniel Hirshmann, Andreas Schlegel, Debbie Ding<br/>
+                      Workshop Programme Leads: Changist (Scott Smith, Future Everything)<br/>
+                      Group Participants: XXXX, XXXX, XXXX, XXXX</p>
+                      
                     </div>
                     <div class="columns five">
                       <h3>Clients</h3>
@@ -51,10 +53,8 @@
               </div>
               <div class="columns five">
                 <div id="project-right">
-                  <h3>Credits</h3>
-                  <p>Workshop Leads: Chomko &amp; Rosier, Assemble, PAN Studio, Daniel Hirshmann, Andreas Schlegel, Debbie Ding<br/>
-                  Workshop Programme Leads: Changist (Scott Smith, Future Everything)<br/>
-                  Group Participants: XXXX, XXXX, XXXX, XXXX</p>
+                  <h3>Install Locations</h3>
+                  <p>Singapore</p>
                 </div>
               </div>
             </div>

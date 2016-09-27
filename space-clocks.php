@@ -50,8 +50,10 @@
                   <div id="project-left-bottom">
                     <div class="row">
                       <div class="columns seven">
-                        <h3>Client</h3>
-                        <p><a href="https://www.gov.uk/government/organisations/uk-space-agency" target="_blank">The UK Space Agency</a></p>
+                        <h3>Credits</h3>
+                        <p>Design/Build: Chomko & Rosier<br/>
+                        Data: Tom Vaughan, PhD Candidate, University of London, Chris Haynes, PhD Candidate, University of XXX</p>
+                        
                       </div>
                       <div class="columns five">
                         <h3>Location</h3>
@@ -62,9 +64,8 @@
                 </div>
                 <div class="columns five">
                   <div id="project-right">
-                    <h3>Credits</h3>
-                    <p>Design/Build: Chomko & Rosier<br/>
-                    Data: Tom Vaughan, PhD Candidate, University of London, Chris Haynes, PhD Candidate, University of XXX</p>
+                    <h3>Client</h3>
+                        <p><a href="https://www.gov.uk/government/organisations/uk-space-agency" target="_blank">The UK Space Agency</a></p>
                   </div>
                 </div>
               </div>

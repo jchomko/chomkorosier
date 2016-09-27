@@ -88,8 +88,8 @@ Navigation Styles...
   height: 100%;
   position: fixed;
   z-index: 999;
-  width: 100%;
   overflow: hidden;
+  max-width: 200px;
 }
 
 #content-navigation > li {
@@ -186,10 +186,8 @@ Projects only...
     color: #fff;
 }
 #project-wrapper img {
-    border: 2px solid #ccc;
     display: block;
     margin: 20px auto 30px;
-    padding: 10px;
     max-width: 100%;
 }
 #project-details {
@@ -374,7 +372,7 @@ Responsive and mobile
     position: relative;
     padding-top: 28px;
     padding-left: 80px;
-    padding-right: 100px;
+    padding-right: 0;
 }
 
 }
@@ -383,20 +381,20 @@ Responsive and mobile
 	.hero { height: 85vh; }
 
 	.content-main {
-    position: relative;
+    padding-left: 4%;
+    padding-right: 10%;
     padding-top: 28px;
-    padding-left: 80px;
-    padding-right: 400px;
+    position: relative;
 }
 }
 
 @media screen and (min-width: 1800px){
 	.secondary { font-size: 1.3em; }
 	.content-main {
-    position: relative;
+    padding-left: 4%;
+    padding-right: 10%;
     padding-top: 28px;
-    padding-left: 80px;
-    padding-right: 400px;
+    position: relative;
 }
 }
 
@@ -450,6 +448,23 @@ Responsive and mobile
 
 /* Everything below mobile */
 @media (max-width: 749px) {
+
+	header#logo {
+    background: rgba(26, 26, 26, 0.9) none repeat scroll 0 0;
+    left: 2%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    top: 0;
+    width: 95.5%;
+    z-index: 999;
+  }
+
+	#navigation-parts {
+    right: -10px;
+    top: 66px;
+  }
+
   #mobile-menu-trigger {
     display: block;
   }
@@ -487,6 +502,7 @@ Responsive and mobile
     position: inherit;
     width: 98.6667%;
     z-index: 999;
+    max-width: 1000px;
   }
 
   .hero {
@@ -496,11 +512,13 @@ Responsive and mobile
   }
 
 	.content-main {
-	    position: relative;
-	    padding-top: 34px;
-			padding-left: 0px;
-			padding-right: 0px;
-	}
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0;
+    padding-top: 34px;
+    position: relative;
+    width: 100% !important;
+  }
 
 	body {
 		padding: 13px 0;
@@ -535,8 +553,23 @@ Responsive and mobile
 	}
 
 	.slick-dots {
-		position: relative;
-	}
+    color: #fff;
+    font-size: 0.8em;
+    right: 0;
+    text-align: right;
+    top: 10px;
+    position: relative;
+}
+
+	.slick-dots li {
+    cursor: pointer;
+    display: inline-block;
+    height: 20px;
+    margin: 0 0 0 5px;
+    padding: 0;
+    position: relative;
+    width: 11px;
+  }
 
 }
 
@@ -549,6 +582,10 @@ Responsive and mobile
 @media (max-width: 400px) {
   header#logo {
     font-size: 2.0em;
+  }
+
+  #navigation-parts {
+    top:56px;
   }
 }
 

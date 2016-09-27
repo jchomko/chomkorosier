@@ -1,4 +1,4 @@
-<nav id="main-nav" class="columns two">
+<nav id="main-nav">
   <header id="logo">
     <a href="/">Chomko<br>&amp; Rosier</a>
     <span id="mobile-menu-trigger"><a href="#">Menu</a></span>
