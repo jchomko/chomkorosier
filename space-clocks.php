@@ -19,8 +19,8 @@
           <?php include ('includes/slideshow.php') ?>
 
           <div class="content-main columns offset-by-one ten" id="project-wrapper">
-
-            <!-- <iframe src="https://player.vimeo.com/video/182829088?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" width="700" height="438" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+            <!-- <iframe class=inline-video src="https://player.vimeo.com/video/182829088?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+            <div class='embed-container'><iframe src='https://player.vimeo.com/video/182829088?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
 
             <h1>A series of public clocks displaying the time on spacecraft orbiting Earth</h1>
 

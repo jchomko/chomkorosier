@@ -50,6 +50,26 @@ h1 {
 	  margin-top: 0px;*/
 }
 
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	height: auto;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
 h2 { font-size: 2.0em; font-weight: 300;}
 h3 { font-size: 1.7em; }
 h4 { font-size: 1.5em; }
@@ -72,10 +92,12 @@ header#logo {
   margin-bottom: 10px;
   margin-top: 0px;
 }
+
 header#logo a {
   color: #fff;
   display: block;
   line-height: 1.08em;
+	width: 100%;
 }
 
 /* ============
@@ -106,10 +128,12 @@ Navigation Styles...
 	padding: 0;
   width: 100%;
 }
+
 #content-navigation > li a {
  color:#878380;
  font-weight: 500;
 }
+
 #content-navigation li a.active, #content-navigation li a:hover {
   color: #fff;
 }
@@ -117,17 +141,22 @@ Navigation Styles...
 #mobile-menu-trigger {
 		font-family: "Atlas Grotesk Web", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
-    display: block;
+    display: none;
     float: right;
     font-size: 0.9em;
     font-weight: 100;
     margin-top: -20px;
 		margin-right:20px;
+		z-index: 999;
+
 }
 
 header#logo #mobile-menu-trigger a {
     color: #878380;
 		display: block;
+		z-index: 999999;
+		position:relative;
+
 
 }
 header#logo #mobile-menu-trigger a:hover {
@@ -142,7 +171,7 @@ Content Styles...
 =============== */
 
 .hero {
-    margin-bottom: -48px;
+    margin-bottom: -17px;
     z-index: -1;
 }
 
@@ -154,7 +183,7 @@ Content Styles...
 }
 
 .content-main h1:first-child {
-    font-size: 2.6em;
+    font-size: 2.3em;
     font-weight: 900;
     line-height: 1.1em;
     margin-bottom: 10px;
@@ -189,13 +218,16 @@ Projects only...
 #projects li a.active {
     color: #fff;
 }
+
 #project-wrapper img {
     display: block;
     margin: 20px auto 30px;
     max-width: 100%;
 }
+
 #project-details {
-    font-size: 0.75em;
+		float: left;
+		font-size: 0.75em;
     margin-top: 60px;
 }
 #project-details h3 {
@@ -300,7 +332,21 @@ Slideshow Styles...
     right: 20px;
     text-align: right;
     top: 10px;
+
+		height: 30px;
+    width: 310px;
 }
+
+/*.slick-dots {
+   color: #fff;
+   font-size: 0.8em;
+   right: 20px;
+   text-align: right;
+   top: 10px;
+   height: 30px;
+   width: 310px;
+}*/
+
 
 .slick-dots a {
     color: #fff;
@@ -385,9 +431,10 @@ Responsive and mobile
 	.hero { height: 85vh; }
 
 	.content-main {
-    padding-left: 4%;
+    padding-left: 3%;
     padding-right: 10%;
-    padding-top: 28px;
+		max-width: 800px;
+    padding-top: 0px;
     position: relative;
 }
 }
@@ -395,9 +442,10 @@ Responsive and mobile
 @media screen and (min-width: 1800px){
 	.secondary { font-size: 1.3em; }
 	.content-main {
-    padding-left: 4%;
+    padding-left: 3%;
     padding-right: 10%;
-    padding-top: 28px;
+		max-width: 900px;
+    padding-top: 0px;
     position: relative;
 }
 }
@@ -448,10 +496,16 @@ Responsive and mobile
 	body .columns.offset-by-one-and-a-bit {
 		margin-left: 5.55%;
 	}
+
+	#navigation-parts {
+		display: block;
+	}
+
 }
 
 /* Everything below mobile */
 @media (max-width: 749px) {
+
 
 	header#logo {
     background: rgba(26, 26, 26, 0.9) none repeat scroll 0 0;
@@ -460,25 +514,32 @@ Responsive and mobile
     padding-top: 10px;
     position: fixed;
     top: 0;
-    width: 95.5%;
+    width: 95%;
     z-index: 999;
   }
 
+	header#logo a {
+	  color: #fff;
+	  display: block;
+	  line-height: 1.08em;
+		width: 30%;
+	}
+
 	#navigation-parts {
     right: -10px;
-    top: 66px;
+    top: 65px;
 		display: block;
   }
 
-  /*#mobile-menu-trigger {
+  #mobile-menu-trigger {
     display: block;
-		margin-right: 20px;
-  }*/
+		/*margin-right: 20px;*/
+  }
 
 	#navigation-parts {
     background: rgba(26,26,26,0.9) none repeat scroll 0 0;
     height: 100%;
-		padding-right: 10%;
+		padding-right: 30px;
 		padding-left:10%;
     display: none;
     position: absolute;
@@ -515,10 +576,10 @@ Responsive and mobile
   }
 
   .hero {
-		margin-top:60px;
+		margin-top:2vh;
     margin-bottom: -0px;
     z-index: -1;
-		height: 190px;
+		height: 33vh;
   }
 
 	.content-main p{
@@ -531,14 +592,15 @@ Responsive and mobile
 
 	h1{
 		width: 100%;
-
 	}
 
 	.content-main {
     margin-left: 0 !important;
     padding-left: 0 !important;
     padding-right: 0;
-    padding-top: 56px;
+    /*padding-top: 56px;*/
+		padding-top: 3vh;
+
     position: relative;
     width: 100% !important;
   }
@@ -552,7 +614,7 @@ Responsive and mobile
 	body {
 		padding: 13px 0;
 		font-size: 1.1em;
-		/*padding-top: 70px;*/
+		padding-top: 70px;
 
 	}
 
@@ -572,16 +634,18 @@ Responsive and mobile
 	}
 
 	#projects{
-			margin-top:10px;
+		  position: fixed;
+     	margin-top:170px;
 			font-size: 12px;
-			line-height: 12px;
-			margin-right:-12px;
+			line-height: 14px;
+			margin-right:12px;
 
 	}
 
 	#content-navigation{
-		margin-top:10px;
-		margin-right:-12px;
+		position: fixed;
+		margin-top:70px;
+		margin-right:14px;
 		font-size: 12px;
 		line-height: 12px;
 
@@ -596,6 +660,17 @@ Responsive and mobile
     position: relative;
 }
 
+
+	.slick-dots {
+			display: none;
+			color: #fff;
+			font-size: 0.8em;
+			right: 20px;
+			text-align: right;
+			top: 10px;
+
+
+	}
 	.slick-dots li {
     cursor: pointer;
     display: inline-block;
@@ -607,10 +682,42 @@ Responsive and mobile
     width: 11px;
   }
 
+
 }
 
 /* Up to phablet (also point when grid becomes active) */
 @media (min-width: 401px) and (max-width: 749px) {
+
+
+	#navigation-parts {
+		right: -10px;
+		top: 65px;
+		display: block;
+		background: rgba(26,26,26,0.9) none repeat scroll 0 0;
+		height: 100%;
+		padding-right: 10px;
+		padding-left:10%;
+		display: none;
+		position: fixed;
+		text-align: right;
+		z-index: 100;
+		width:50%;
+	}
+
+	.content-main {
+		margin-left: -10px !important;
+		padding-left: 0 !important;
+		padding-right: 0;
+		padding-top: 4vh;
+		position: relative;
+		width: 100% !important;
+	}
+
+	.slick-dots li {
+		display: none;
+	}
+
+
 
 }
 
@@ -621,8 +728,17 @@ Responsive and mobile
   }
 
   #navigation-parts {
-    top:57px;
+    top:0vh;
+		position: fixed;
+		z-index: 100;
+
   }
+
+
+		.slick-dots li {
+			display: none;
+		}
+
 }
 
 

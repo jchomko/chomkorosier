@@ -69,7 +69,7 @@
       <div class="hero">
         <div class="slick-slider">
           <div class="a-slide" style="background: url('projects/heart-of-a-king/heart-of-a-king-01.jpg')"></div>
-          <div class="a-slide" style="background: url('projects/heart-of-a-king/heart-of-a-king-02.JPG')"></div>
+          <div class="a-slide" style="background: url('projects/heart-of-a-king/heart-of-a-king-02.jpg')"></div>
           <div class="a-slide" style="background: url('projects/heart-of-a-king/heart-of-a-king-03.jpg')"></div>
           <div class="a-slide" style="background: url('projects/heart-of-a-king/heart-of-a-king-04.jpg')"></div>
           <div class="a-slide" style="background: url('projects/heart-of-a-king/heart-of-a-king-05.jpg')"></div>
