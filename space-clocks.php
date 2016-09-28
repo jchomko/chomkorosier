@@ -21,7 +21,7 @@
           <div class="content-main columns offset-by-one ten" id="project-wrapper">
             <!-- <iframe class=inline-video src="https://player.vimeo.com/video/182829088?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
             <div class='embed-container'><iframe src='https://player.vimeo.com/video/182829088?autoplay=1&loop=1&color=ffffff&title=0&byline=0&portrait=0' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
-
+<br>
             <h1>A series of public clocks displaying the time on spacecraft orbiting Earth</h1>
 
             <p>The Relative Clocks show the effects of time dilation. Each clock shows the time on Earth, as well as on a spacecraft. Spacecraft orbiting the earth experience time at a different rate than us on Earth, due to the effects of gravity and velocity on the flow of time. This effect is known as time dilation, and is explained by Albert Einsteins’ Theory of Relativity.</p>
@@ -52,7 +52,7 @@
                       <div class="columns seven">
                         <h3>Credits</h3>
                         <p>Design/Build: Chomko & Rosier<br/>
-                        Data: Tom Vaughan, PhD Candidate, University of London, Chris Haynes, PhD Candidate, University of XXX</p>
+                        Data: Tom Vaughan, Chris Haynes</p>
 
                       </div>
                       <div class="columns five">

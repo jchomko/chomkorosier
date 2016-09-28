@@ -39,13 +39,13 @@
                     <div class="columns seven">
                       <h3>Credits</h3>
                       <p>Workshop Leads: Chomko &amp; Rosier, Assemble, PAN Studio, Daniel Hirshmann, Andreas Schlegel, Debbie Ding<br/>
-                      Workshop Programme Leads: Changist (Scott Smith, Future Everything)<br/>
-                      Group Participants: XXXX, XXXX, XXXX, XXXX</p>
-                      
+                      Workshop Programme Leads: Changist (Scott Smith), Future Everything)<br/>
+                      </p>
+
                     </div>
                     <div class="columns five">
                       <h3>Clients</h3>
-                      <p>Future Everything</p>
+                      <p><a href="http://futureeverything.org/" target="_blank">Future Everything</a></p>
 
                     </div>
                   </div>
